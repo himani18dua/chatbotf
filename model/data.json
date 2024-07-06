@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there", "Hey there"],
+        "responses": ["Hello! How can I assist you with your food order today?", "Hi! Looking for something delicious? How can I help?", "Hey! Ready to order some food?"]
+      },
+      {
+        "tag": "restaurant_search",
+        "patterns": ["Show me all available restaurants", "What are the top-rated restaurants?", "List all restaurants", "Which restaurants are available?"],
+        "responses": ["Here are some available restaurants: Pizza Palace, Sushi World.", "Top-rated restaurants include Sushi World and Pizza Palace.", "You can order from these restaurants: Pizza Palace, Sushi World."]
+      },
+      {
+        "tag": "menu_search",
+        "patterns": ["What's on the menu at Pizza Palace?", "Show me the menu for Sushi World", "What does Pizza Palace offer?", "Menu items for Sushi World"],
+        "responses": ["Pizza Palace offers: Margherita Pizza, Pepperoni Pizza.", "Sushi World offers: California Roll, Spicy Tuna Roll.", "The menu for Pizza Palace includes: Margherita Pizza, Pepperoni Pizza."]
+      },
+      {
+        "tag": "order_status",
+        "patterns": ["What's the status of my order?", "Where is my order?", "Track my order", "Order status"],
+        "responses": ["Your order is currently in transit.", "Your order has been delivered.", "Your order is being prepared."]
+      },
+      {
+        "tag": "order_history",
+        "patterns": ["Show me my past orders", "What did I order last time?", "Order history", "Previous orders"],
+        "responses": ["Here are your past orders: 2x Margherita Pizza, 1x Pepperoni Pizza from Pizza Palace.", "Your last order was 3x California Roll from Sushi World."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "I'm done", "Thanks, bye"],
+        "responses": ["Goodbye! Have a great day!", "See you later! Enjoy your meal!", "Bye! Feel free to come back anytime."]
+      }
+    ]
+  }
+  
